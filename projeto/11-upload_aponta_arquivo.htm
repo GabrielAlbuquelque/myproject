@@ -1,0 +1,70 @@
+<!--
+	120420 - 20 abril 2012
+	Componente para fazer upload de arquivo
+	Esse arquivo pode ter extensão .htm, .html ou .php 
+******************************************************************
+	120220b - 20 fevereiro 2012
+	Adaptado do seguinte endereço:
+	 http://blog.thiagobelem.net/upload-de-arquivos-com-php/
+***************************************************************  -->
+<!-- Aqui é colocado o ícone proico.gif com o logo do PRO na aba da página
+	está destacado aqui porque TODAS as páginas da aplicação possuem este ícone -->
+<link rel="shortcut icon" href="estilo_arquivos/canguru.jpeg" type="image/x-icon" />
+
+<!-- Aqui é definida a folha de estilo chamada query_estilo			-->			
+<link type="text/css"   rel="stylesheet"  href="estilo_arquivos/exemplo_estilo.css"/>
+
+<!-- Aqui é definido o conjunto de caracteres			-->			
+<meta content="text/html; charset=UTF-8" http-equiv="content-type">
+
+</head>
+<body>
+    <div class="global-div"> <!-- classe global-div (CSS) define o tamanho total da página-->
+
+	<div class='topo-div'> <!-- classe topo-div (CSS) define a área do cabeçalho  -->
+		<head>
+		<!-- aqui define o texto que vai na aba da página (orelha)-->
+		<title> Voluntariado GRENDACC </title>
+		</head>
+		<h1>
+			<!-- define o topo da página-->
+			<!-- primeirament o logo esquerdo logo_pro.gif-->
+<a href="index.html"><img src="estilo_arquivos/gradient1.png" alt ='blank' align="left"	width="980" 	height="240"/>	</a>		
+		</h1>
+	</div>
+
+<!-- primeira coluna: menu  ******************************************************************** -->
+	<div class='largo-div'>  <!-- classe topo-div (CSS) define a área da esquerda para o menu -->
+
+
+
+<h1>
+Envie sua foto<br>
+</h1>
+
+<hr>
+<!-- Comando para fazer upload de um arquivo e vincular a esse ID-->
+<form method="post" action="11-recebe_upload.php" enctype="multipart/form-data">
+<form method="post" action="11-recebe_upload.php" ">
+	<p>Nome do Arquivo - procurar :  <input type="file"		name="arquivo" />
+	<br>
+	<br>
+	<br>
+	<input type="submit" value="Enviar" /></p>
+
+</form>
+<br><input type="button" value ="Voltar" onclick="history.go(-1);return true;" />
+<hr>
+
+</div> <!-- fecha dir aqui -->
+
+<!-- Parte inferior: rodapé  ******************************************************************** -->
+<div class='rodape-div'>   <!-- classe rodapé (CSS) está definida na folha de estilo -->
+<p2>
+<hr>
+Grupo em Defesa da Crianca com Cancer - Grendacc | www.grendacc.org.br
+</p2>
+</div> <!-- div do rodapé -->
+</div> <!-- DIV GLOBAL fecha aqui-->
+</body>
+</html>

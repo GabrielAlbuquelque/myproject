@@ -1,0 +1,100 @@
+
+/* Elaborado por Marcelo Pessoa  15 maio 2010  		*/
+/* Base no IT_arquivos do SGQ */
+/* Versão 1.0 criada para homogeneização da interface		*/	
+
+/*#############################################################################*/		
+
+/*----------------------RESET--------------------*/
+
+body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul, ol,
+li, dl, dt, dd, form, a, fieldset, input, th, td, ft, teste
+{margin: 0; padding: 0; outline: none;}
+
+body{line-height:1; font-size:62.5%; background:#000;} /*---- 1.0 em = 10px---*/
+
+h1, h2, h3, h4, h5, h6{font-size:100%;}
+
+ul, ol{list-style:none;}
+
+/*----------------------RESET--------------------*/
+
+		body {   
+		background-image: url('hands.jpg');
+		background-repeat:repeat;}
+
+/*----------------------DIVS--------------------*/
+.global-div{position:absolute; display:block; width:980px; height:auto; margin:auto; 
+			left:50%; margin-left:-500px; margin-right:600px; margin-bottom:10px; 
+			background-image: url('zebra.jpg');background-repeat:repeat; padding:0 0 0 0;}
+.topo-div	{width:960px; height:68px; background-color:#EBD6FF; }
+.dir-div	{width:800px; height:auto; left:100px; margin-left:-100px; background-color:#F9F9F9;	padding:10px 5px 10px 5px;}
+.esq-div	{width:150px; height:auto; background-color:#D8D8D8;  margin-right:10px;	padding:10px 5px 10px 5px}
+.largo-div	{width:960px; left: 10px; height:auto; background:#F9F9F9;	text-align:center; padding:10px 5px 10px 5px}
+.rodape-div	{width:980px; height:55px; background:#00245A; color:#fff; margin-top:7px;}
+
+.dir-div, .esq-div, .rodape-div{position:relative; float:left;}
+/*----------------------DIVS--------------------*/	
+		
+		td{font-family: Arial; font-size: 11pt;}
+/*#############################################################################*/		
+	
+/*-- equivalente no word ao titulo 1 --*/
+		h1 {	font-family: times;	font-size:30px;	color:#000000;	text-align: center;	/*background-color: #F0862C;*/	}
+/*-- equivalente no word ao titulo 2 --*/
+		h2 {	font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;	color: #000000;	font-size:28;	position:relative;	left:0px;	}
+/*-- equivalente no word ao titulo 3 --*/
+		h3 {	font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;	color: #000000;	font-size:18;	font-style: italic;	position: relative;	left: 0px;	}
+/*-- equivalente no word ao titulo 4 --*/
+		h4 {	font-family: arial;	color: #000000;	font-size:16;	font-style: italic;	position: relative;	left: 50px;	}
+/*-- equivalente no word ao Normal --*/
+		p {	color: black;	font-family: arial;	font-weight: normal;	font-size: 16;	position: relative;	left: 10px;	max-width:95%;	}
+/*-- equivalente no word reduzido --*/ 
+		pq {	color: black;	font-family: arial;	font-weight: normal;	font-size: 13;	position: relative;	left: 5px;	max-width:97%;	}
+/*-- para não ser impresso --*/
+		p3 {	color: #F9F9F9;	font-family: arial;	font-weight: normal;	font-size: 16;	position: relative;	left: 20px;	max-width:85%;	}
+/*-- equivalente no word ao Normal Identado--*/
+		p1 {	color: black;	font-family: arial;	font-weight: normal;	font-size: 14;	position: relative;	left: 55px;		}
+/* estilo para o Copywright */
+		p2 { font-family: arial;	color: #FFFFFF;	font-weight: normal;	font-size: 12; }
+/*Fonte para cadastro*/
+	ft {	font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;	color: #000000;	font-size:14;	}
+/*comentarios provisorios*/
+	teste {	color: purple;	font-family: arial;	font-weight: normal;	position: relative; font-size: 14;	}
+	
+
+
+/* 	MENU - FORMATAÇÃO S  */
+/* definições gerais de fonte */
+ul.menu01{margin:0;padding:0;list-style-type:none;display:block;
+font:bold 14px Arial;line-height:165%;
+width:180px;}
+
+/* Linha de espaçamento entre os itens do menu: */
+ul.menu01 li{margin:0;padding:0;border-top:0px solid #A8C0DC;
+border-bottom:5px solid #F9FAFD;}
+
+/* cor quando não selecionado font e fundo: */
+ul.menu01 li a{display:block;text-decoration:none;color:#000000 ;
+background:#D8D8D8;padding:0 0 0 20px;width:160px;}
+
+/* cor quando selecionado font e fundo: */
+ul.menu01 li a:hover{color: 	#E8E8E8 ; background: 	#404040 ;}
+
+ul.menu01 li a.current,ul.menu01 li a.current:hover{
+background:#000;}		
+/* DAB78d fundo normal  805B4A selecionado   CCDBF1 */
+/*  805B4A letra normal escura */
+
+
+/*####################################################################################*/
+/*formatação de tabela nome: revisões*/
+		#tabform
+	{font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; 		border-collapse:collapse;	}
+		#tabform td, #tabform th 
+	{font-size:1em;		border:1px solid black;		padding:3px 7px 2px 7px;	}
+		#tabform th 
+	{	font-size:1.1em;	text-align:center;	padding-top:5px;	padding-bottom:4px;	background-color:#191970;	color:#F4FCFF;	}
+		#tabform tr.alt td 
+	{	color:#000000;	background-color:#FFFF99;	}
+	
