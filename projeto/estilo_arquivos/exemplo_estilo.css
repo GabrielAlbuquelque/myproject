@@ -75,7 +75,7 @@ ul.menu01 li{margin:0;padding:0;border-top:0px solid #A8C0DC;
 border-bottom:5px solid #F9FAFD;}
 
 /* cor quando não selecionado font e fundo: */
-ul.menu01 li a{display:block;text-decoration:none;color:#800080 ;
+ul.menu01 li a{display:block;text-decoration:none;color:#000000 ;
 background:#D8D8D8;padding:0 0 0 20px;width:160px;}
 
 /* cor quando selecionado font e fundo: */
